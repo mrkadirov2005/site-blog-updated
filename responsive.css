@@ -1,0 +1,56 @@
+#image-header {
+  margin-bottom: 70px;
+}
+.img-wrapper {
+  position: relative;
+  width: 33%;
+  /* padding: 10px; */
+  /* padding-bottom: 20px; */
+  /* background-color: orange; */
+}
+.image-linked {
+  width: 100% !important;
+}
+@media (max-width: 1000px) {
+  .img-wrapper {
+    display: none;
+  }
+  header {
+    height: 100px !important;
+    background-color: rgb(167, 128, 128);
+  }
+  .img-wrapper:first-child {
+    display: block;
+    margin: 15px;
+    width: 100%;
+  }
+}
+#download-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 70px;
+  padding: 20px;
+  background-color: black;
+  color: white !important;
+}
+#download-button-a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: orange;
+  padding: 5px;
+  border-radius: 4px;
+}
+#div-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-inspect {
+  position: absolute;
+  bottom: 0;
+  margin: 20px;
+  padding: 20px;
+}
